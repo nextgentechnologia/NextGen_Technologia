@@ -306,6 +306,26 @@ body {
     border-radius: 10px;
 }
 
+.cert-card {
+    overflow: hidden;      /* Prevents overlapping */
+}
+
+.cert-card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;        /* Removes gaps/overflow */
+    border-radius: 10px;
+}
+
+.cert-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 40px;
+    align-items: start;   /* Proper alignment */
+}
+
+
 /* ================= REVIEWS ================= */
 .reviews-section {
     padding: 60px 40px;
@@ -406,6 +426,7 @@ body {
         text-align: center;
     }
 }
+
 
 
 
