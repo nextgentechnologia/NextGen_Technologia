@@ -186,18 +186,10 @@ body {
     margin-top: 20px;
 }
 
-/* ================= WHY SECTION ================= */
+/* WHY CHOOSE US */
 .why-section {
+    padding: 60px 20px;
     text-align: center;
-    padding: 60px 40px;
-    background: #ffffff;
-}
-
-.section-title {
-    font-size: 32px;
-    font-weight: 700;
-    color: #003d73;
-    margin-bottom: 40px;
 }
 
 .why-container {
@@ -205,47 +197,57 @@ body {
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 .why-card {
     width: 260px;
     background: #fff;
-    padding: 20px;
+    padding: 25px;
     border-radius: 12px;
-    box-shadow: 0 4px 18px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
 }
 
 .why-card i {
-    font-size: 45px;
-    margin-bottom: 12px;
+    font-size: 40px;
     color: #0059ff;
+    margin-bottom: 10px;
 }
 
-/* ================= TEAM SECTION ================= */
+
+/* TEAM SECTION */
 .team-section {
-    padding: 60px 40px;
+    padding: 60px 20px;
     text-align: center;
-    background: #ffffff;
 }
 
 .team-container {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 30px;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 .team-card {
     width: 260px;
     background: #fff;
-    padding: 20px;
+    padding: 25px;
     border-radius: 12px;
-    box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 .team-card i {
-    font-size: 40px;
+    font-size: 45px;
+    color: #0059ff;
+    margin-bottom: 10px;
+}
+
+.team-card .role {
+    font-weight: bold;
     color: #004A99;
+    margin-bottom: 8px;
 }
 
 /* ================= SERVICES SECTION ================= */
@@ -396,3 +398,4 @@ body {
         text-align: center;
     }
 }
+
