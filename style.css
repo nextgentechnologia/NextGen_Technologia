@@ -298,32 +298,22 @@ body {
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 
-/* 🔥 THIS FIXES IMAGE SIZE */
-.cert-card img {
-    width: 100%;
-    height: 350px;          /* FIXED HEIGHT LIKE 2nd IMAGE */
-    object-fit: cover;      /* AUTOMATICALLY CROPS & MATCHES SIZE */
-    border-radius: 10px;
-}
-
 .cert-card {
-    overflow: hidden;      /* Prevents overlapping */
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    text-align: center;
 }
 
 .cert-card img {
     width: 100%;
-    height: 350px;
-    object-fit: cover;
-    display: block;        /* Removes gaps/overflow */
-    border-radius: 10px;
+    height: 350px;        /* FIX: same height for all images */
+    object-fit: cover;    /* FIX: crop properly — no stretch */
+    border-radius: 8px;
+    object-position: center;  /* FIX: center image focus */
 }
 
-.cert-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 40px;
-    align-items: start;   /* Proper alignment */
-}
 
 
 /* ================= REVIEWS ================= */
@@ -426,6 +416,7 @@ body {
         text-align: center;
     }
 }
+
 
 
 
