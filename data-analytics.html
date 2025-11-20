@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analytics – NextGen Technologia</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style-services.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="service-navbar">
+        <img src="logo.png" alt="Logo">
+
+        <div class="nav-btns">
+            <a href="index.html" class="home-btn">Return to Home</a>
+            <a href="https://forms.gle/88SB46vQet3kp7Ht6" target="_blank" class="apply-btn">Apply Now</a>
+        </div>
+    </header>
+
+    <!-- ================= HERO BANNER ================= -->
+    <section class="hero-banner" style="background-image:url('https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg');">
+        <h1>Data Analytics Internship</h1>
+    </section>
+
+    <div class="page-container">
+
+        <!-- Overview -->
+        <h2 class="section-title">Overview</h2>
+        <p>
+            Our Data Analytics Internship is designed to give students and beginners real-world experience
+            in Python, Excel, Power BI, and Machine Learning basics. You will work on projects, build dashboards,
+            analyze datasets, and understand industry workflows.
+        </p>
+
+        <!-- What You’ll Learn -->
+        <h2 class="section-title">What You Will Learn</h2>
+
+        <div class="cards">
+            <div class="card">
+                <i class="fa-solid fa-chart-line"></i>
+                <h3>Data Cleaning</h3>
+                <p>Handling missing values, transformation & filtering.</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-database"></i>
+                <h3>Python for Analytics</h3>
+                <p>Pandas, NumPy, Matplotlib practice.</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-table"></i>
+                <h3>Excel Analytics</h3>
+                <p>Pivot tables, charts, formulas & automation.</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-chart-pie"></i>
+                <h3>Power BI Dashboards</h3>
+                <p>Building interactive dashboards and reports.</p>
+            </div>
+        </div>
+
+        <!-- Tools -->
+        <h2 class="section-title">Tools Covered</h2>
+
+        <div class="tools">
+            <div class="tool">Python</div>
+            <div class="tool">Excel</div>
+            <div class="tool">Power BI</div>
+            <div class="tool">Jupyter Notebook</div>
+            <div class="tool">ML Basics</div>
+        </div>
+
+        <!-- Projects -->
+        <h2 class="section-title">Projects You Will Build</h2>
+
+        <div class="cards">
+            <div class="card">
+                <i class="fa-solid fa-chart-simple"></i>
+                <h3>Sales Dashboard</h3>
+                <p>Analyze company sales & build Power BI dashboard.</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-user"></i>
+                <h3>Customer Insights</h3>
+                <p>Segment customers using Excel & Python.</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-brain"></i>
+                <h3>ML Prediction</h3>
+                <p>Build a basic machine learning prediction model.</p>
+            </div>
+        </div>
+
+        <!-- Syllabus -->
+        <h2 class="section-title">Complete Syllabus</h2>
+
+        <div class="accordion">
+
+            <div class="acc-item">
+                <h3>Week 1 – Python Basics</h3>
+                <p>Variables, loops, functions, Pandas, NumPy.</p>
+            </div>
+
+            <div class="acc-item">
+                <h3>Week 2 – Excel Analytics</h3>
+                <p>Pivot tables, VLOOKUP, dashboards, automation.</p>
+            </div>
+
+            <div class="acc-item">
+                <h3>Week 3 – Power BI</h3>
+                <p>DAX, modeling, dashboard creation, publishing.</p>
+            </div>
+
+            <div class="acc-item">
+                <h3>Week 4 – Mini Project</h3>
+                <p>Build and present your analytics project.</p>
+            </div>
+
+        </div>
+
+        <!-- FAQ -->
+        <h2 class="section-title">FAQ</h2>
+
+        <div class="accordion">
+
+            <div class="acc-item">
+                <h3>Is this internship online?</h3>
+                <p>Yes, it is fully online with flexible timings.</p>
+            </div>
+
+            <div class="acc-item">
+                <h3>Do I receive a certificate?</h3>
+                <p>Yes, you will receive Internship Certificate + LOR.</p>
+            </div>
+
+            <div class="acc-item">
+                <h3>Is prior experience needed?</h3>
+                <p>No, this internship is beginner-friendly.</p>
+            </div>
+
+        </div>
+
+        <!-- Apply Big Button -->
+        <a href="https://forms.gle/88SB46vQet3kp7Ht6" class="apply-big" target="_blank">
+            Apply Now
+        </a>
+
+    </div>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/918295149044" class="whatsapp-float" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i> Chat Now
+    </a>
+
+    <!-- Accordion Script -->
+    <script>
+        const acc = document.querySelectorAll(".acc-item");
+
+        acc.forEach(item => {
+            item.addEventListener("click", () => {
+                const p = item.querySelector("p");
+                p.style.display = p.style.display === "block" ? "none" : "block";
+            });
+        });
+    </script>
+
+</body>
+</html>
