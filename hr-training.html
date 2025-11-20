@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Training – NextGen Technologia</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style-services.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="service-navbar">
+        <img src="logo.png" alt="Logo">
+
+        <div class="nav-btns">
+            <a href="index.html" class="home-btn">Return to Home</a>
+            <a href="https://forms.gle/88SB46vQet3kp7Ht6" target="_blank" class="apply-btn">Apply Now</a>
+        </div>
+    </header>
+
+    <!-- ================= HERO BANNER ================= -->
+    <section class="hero-banner" style="background-image:url('https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg');">
+        <h1>HR Training Internship</h1>
+    </section>
+
+    <div class="page-container">
+
+        <!-- Overview -->
+        <h2 class="section-title">Overview</h2>
+        <p>
+            Our HR Training Internship is designed for students and beginners who want to build skills in
+            recruitment, payroll, employee relations, HR policies, communication skills, and organizational behavior.
+            You will work on real HR tasks and learn how corporate HR functions work.
+        </p>
+
+        <!-- What You’ll Learn -->
+        <h2 class="section-title">What You Will Learn</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <i class="fa-solid fa-user-check"></i>
+                <h3>Recruitment</h3>
+                <p>Sourcing, screening, interview coordination.</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-money-check-dollar"></i>
+                <h3>Payroll Basics</h3>
+                <p>Salary structure, leaves, attendance, incentives.</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-file-contract"></i>
+                <h3>HR Policies</h3>
+                <p>Workplace rules, compliance, documentation.</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-users"></i>
+                <h3>Employee Relations</h3>
+                <p>Conflict resolution, communication, behavior.</p>
+            </div>
+
+        </div>
+
+        <!-- Tools -->
+        <h2 class="section-title">Topics Covered</h2>
+
+        <div class="tools">
+            <div class="tool">Recruitment</div>
+            <div class="tool">Payroll</div>
+            <div class="tool">Employee Relations</div>
+            <div class="tool">Performance Mgmt</div>
+            <div class="tool">Corporate Communication</div>
+        </div>
+
+        <!-- Projects -->
+        <h2 class="section-title">Projects You Will Build</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <i class="fa-solid fa-file-lines"></i>
+                <h3>Employee Handbook</h3>
+                <p>Create a real HR handbook for a company.</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-clipboard-check"></i>
+                <h3>HR Policies Draft</h3>
+                <p>Prepare workplace policies for a company.</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-user-group"></i>
+                <h3>Recruitment Project</h3>
+                <p>End-to-end hiring process demonstration.</p>
+            </div>
+
+        </div>
+
+        <!-- Syllabus -->
+        <h2 class="section-title">Complete Syllabus</h2>
+
+        <div class="accordion">
+
+            <div class="acc-item">
+                <h3>Week 1 – Recruitment</h3>
+                <p>Sourcing, screening, scheduling interviews.</p>
+            </div>
+
+            <div class="acc-item">
+                <h3>Week 2 – Payroll & Leaves</h3>
+                <p>Salary structure, attendance, incentives.</p>
+            </div>
+
+            <div class="acc-item">
+                <h3>Week 3 – HR Policies & Compliance</h3>
+                <p>Policy creation, documentation, reporting.</p>
+            </div>
+
+            <div class="acc-item">
+                <h3>Week 4 – Employee Relations</h3>
+                <p>Communication, workplace behavior, conflict handling.</p>
+            </div>
+
+        </div>
+
+        <!-- FAQ -->
+        <h2 class="section-title">FAQ</h2>
+
+        <div class="accordion">
+
+            <div class="acc-item">
+                <h3>Is HR difficult for beginners?</h3>
+                <p>No, HR is easy to learn with proper guidance.</p>
+            </div>
+
+            <div class="acc-item">
+                <h3>Do I need English fluency?</h3>
+                <p>Basic communication is enough.</p>
+            </div>
+
+            <div class="acc-item">
+                <h3>Do I get a certificate?</h3>
+                <p>Yes! Internship Certificate + LOR included.</p>
+            </div>
+
+        </div>
+
+        <!-- Apply Big Button -->
+        <a href="https://forms.gle/88SB46vQet3kp7Ht6" class="apply-big" target="_blank">
+            Apply Now
+        </a>
+
+    </div>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/918295149044" class="whatsapp-float" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i> Chat Now
+    </a>
+
+    <!-- Accordion Script -->
+    <script>
+        const acc = document.querySelectorAll(".acc-item");
+
+        acc.forEach(item => {
+            item.addEventListener("click", () => {
+                const p = item.querySelector("p");
+                p.style.display = p.style.display === "block" ? "none" : "block";
+            });
+        });
+    </script>
+
+</body>
+</html>
