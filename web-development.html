@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development – NextGen Technologia</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style-services.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="service-navbar">
+        <img src="logo.png" alt="Logo">
+
+        <div class="nav-btns">
+            <a href="index.html" class="home-btn">Return to Home</a>
+            <a href="https://forms.gle/88SB46vQet3kp7Ht6" target="_blank" class="apply-btn">Apply Now</a>
+        </div>
+    </header>
+
+    <!-- ================= HERO BANNER ================= -->
+    <section class="hero-banner" style="background-image:url('https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg');">
+        <h1>Web Development Internship</h1>
+    </section>
+
+    <div class="page-container">
+
+        <!-- Overview -->
+        <h2 class="section-title">Overview</h2>
+        <p>
+            Our Web Development Internship helps beginners and students learn HTML, CSS, JavaScript,
+            responsive UI, hosting, and GitHub deployment. You will build real websites that you can
+            actually launch and add to your portfolio.
+        </p>
+
+        <!-- What You’ll Learn -->
+        <h2 class="section-title">What You Will Learn</h2>
+
+        <div class="cards">
+            <div class="card">
+                <i class="fa-solid fa-code"></i>
+                <h3>HTML5 Structure</h3>
+                <p>Creating pages, elements, forms & semantic layout.</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-paintbrush"></i>
+                <h3>CSS3 Styling</h3>
+                <p>Styling, animations, flexbox, grid, UI/UX basics.</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-square-js"></i>
+                <h3>JavaScript</h3>
+                <p>DOM, events, validation & interactive components.</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>Responsive Websites</h3>
+                <p>Mobile-friendly design for all screen sizes.</p>
+            </div>
+        </div>
+
+        <!-- Tools -->
+        <h2 class="section-title">Tools Covered</h2>
+
+        <div class="tools">
+            <div class="tool">VS Code</div>
+            <div class="tool">HTML5</div>
+            <div class="tool">CSS3</div>
+            <div class="tool">JavaScript</div>
+            <div class="tool">Git & GitHub</div>
+        </div>
+
+        <!-- Projects -->
+        <h2 class="section-title">Projects You Will Build</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <i class="fa-solid fa-globe"></i>
+                <h3>Portfolio Website</h3>
+                <p>Build your personal online portfolio.</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-shop"></i>
+                <h3>Mini E-Commerce Website</h3>
+                <p>Product listing, cart simulation & UI design.</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-mobile-screen"></i>
+                <h3>Responsive Landing Page</h3>
+                <p>Modern UI with animations and effects.</p>
+            </div>
+
+        </div>
+
+        <!-- Syllabus -->
+        <h2 class="section-title">Complete Syllabus</h2>
+
+        <div class="accordion">
+
+            <div class="acc-item">
+                <h3>Week 1 – HTML5</h3>
+                <p>Tags, elements, forms, structure, sematic design.</p>
+            </div>
+
+            <div class="acc-item">
+                <h3>Week 2 – CSS & Responsive Design</h3>
+                <p>Flexbox, grid, media queries, animations.</p>
+            </div>
+
+            <div class="acc-item">
+                <h3>Week 3 – JavaScript Basics</h3>
+                <p>DOM, events, validation, dynamic components.</p>
+            </div>
+
+            <div class="acc-item">
+                <h3>Week 4 – Project</h3>
+                <p>Build & deploy your own website.</p>
+            </div>
+
+        </div>
+
+        <!-- FAQ -->
+        <h2 class="section-title">FAQ</h2>
+
+        <div class="accordion">
+
+            <div class="acc-item">
+                <h3>Do I need coding experience?</h3>
+                <p>No, this internship is perfect for beginners.</p>
+            </div>
+
+            <div class="acc-item">
+                <h3>Will my website go live?</h3>
+                <p>Yes! You will deploy your project on GitHub Pages.</p>
+            </div>
+
+            <div class="acc-item">
+                <h3>Do I get a certificate?</h3>
+                <p>Yes. Certificate + LOR + project review.</p>
+            </div>
+
+        </div>
+
+        <!-- Apply Big Button -->
+        <a href="https://forms.gle/88SB46vQet3kp7Ht6" class="apply-big" target="_blank">
+            Apply Now
+        </a>
+
+    </div>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/918295149044" class="whatsapp-float" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i> Chat Now
+    </a>
+
+    <!-- Accordion Script -->
+    <script>
+        const acc = document.querySelectorAll(".acc-item");
+
+        acc.forEach(item => {
+            item.addEventListener("click", () => {
+                const p = item.querySelector("p");
+                p.style.display = p.style.display === "block" ? "none" : "block";
+            });
+        });
+    </script>
+
+</body>
+</html>
